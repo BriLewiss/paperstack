@@ -15,8 +15,6 @@ from openai_utils import (
 from scholar_utils import get_recommended_arxiv_ids_from_semantic_scholar
 
 ARXIV_SEARCH = """\
-"adversarial attacks" OR "language model attacks" OR "LLM vulnerabilities" OR \
-"AI security" OR "machine learning security" OR "bypassing AI" OR \
 "reinforcement learning penetration test" OR "reinforcement learning pen test" OR "artificial intelligence penetration test" OR \
 "artificial intelligence pen test"\
 """
